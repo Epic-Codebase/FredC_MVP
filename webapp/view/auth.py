@@ -11,6 +11,7 @@ login_redirection = RedirectResponse("/login", status_code=303)
 
 
 def page():
+
     return ft.Titled("Test")
 
 
@@ -52,5 +53,14 @@ def login(user: User, session):
 
 
 def logout(session):
+
     del session["auth"]
     return login_redirection
+
+
+def beforeware(request, session):
+
+    auth = request.scope["auth"] = session.get("auth", None)
+
+    if not auth:
+        return login_redirection

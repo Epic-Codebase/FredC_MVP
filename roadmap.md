@@ -9,7 +9,7 @@
 
 # Back-end
 ## Handle not found (no route)
-    1) [ ] Create the `Not Found` exception handler - Lucas
+    1) [ X ] Create the `Not Found` exception handler - Lucas
 
 ## Handle the registration page
     1) [ ] Define the get method to retrieve the HTML code - Priyatham
@@ -21,4 +21,4 @@
     3) [ X ] Define the post method to logout - Lucas
 
 ## Check user authenticated
-    1) [ ] Check if user is authenticated before accessing resouces - Lucas
+    1) [ X ] Check whether user is authenticated before accessing resouces - Lucas
