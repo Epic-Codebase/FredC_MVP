@@ -1,7 +1,7 @@
 # Create the database
-    * [ ] Create the user table - Lucas
-    * [ ] Create the user model - Lucas
-    * [ ] Embed the database into FastHtml - Lucas
+    * [ X ] Create the user table - Lucas
+    * [ X ] Create the user model - Lucas
+    * [ X ] Embed the database into FastHtml - Lucas
 
 # Front-end
     * [ ] Create the registration page - Priyatham
